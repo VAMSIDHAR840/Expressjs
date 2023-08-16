@@ -1,0 +1,40 @@
+.abc{
+    transform: translate(20px);
+     font-size: 25px;
+ }
+ form{
+     line-height: 2;
+     transform: translate(50px);
+ }
+ button{
+     transform: translate(50px);
+     height: 27px;
+     text-align: center;
+     width: 150px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: 2px solid yellow;
+ }
+ button:hover{
+     background-color: yellow;
+     color: green;
+     border: 2px solid green;
+ }
+ img{
+     transform: translate(130px);
+     height: 44px;
+     width: 44px;
+     border-radius: 100%;
+ }
+ .divtag{
+     border: 2px solid red;
+     height: 220px;
+     width: 300px;
+     margin-top: 50px;
+     transform: translate(150px);
+     background: rgb(180, 176, 176);
+ }
+ input{
+     border-radius: 5px;
+ }

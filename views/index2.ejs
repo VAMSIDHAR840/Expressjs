@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #abc{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        i{
+            transform: translateY(100px);
+        }
+        button{
+            color: orange;
+            background-color: gray;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        button:hover{
+            color: black;
+            background-color: orange;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <h2 id="abc">
+        <% names.map((e)=>{%>
+            <div class="imgtag">
+
+                <img src=<%=e.img %> alt="">
+               <h4> <%= e.name %></h4>
+               <button>Explore</button>
+
+            </div>
+           
+
+            <%}) %>
+    </h2>
+
+    <h2 id="abc">
+        <% names.map((e)=>{%>
+            <div class="imgtag">
+
+                <img src=<%=e.img %> alt="">
+               <h4> <%= e.name %></h4>
+               <button>Explore</button>
+
+            </div>
+           
+
+            <%}) %>
+    </h2>
+</body>
+
+</html>
